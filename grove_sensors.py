@@ -30,7 +30,7 @@ while True:
     # Measure Ultrasound range
     measured_range = grovepi.ultrasonicRead(ultrasound)
     old_measured_range = 0
-    range_ref = 0
+    old_range = 0
 
     # Print to Screen
     if (measured_range != old_measured_range) or (range_ref != old_range):
