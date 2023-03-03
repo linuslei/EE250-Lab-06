@@ -4,8 +4,8 @@ from grove_rgb_lcd import *
 
 # Setting up the Rotary Angle Sensor
 potentiometer = 0
-led = 5
-grovepi.pinMode(led, "OUTPUT")
+lcd = 3
+grovepi.pinMode(lcd, "OUTPUT")
 grovepi.pinMode(potentiometer, "INPUT")
 time.sleep(1)
 adc_ref = 5
