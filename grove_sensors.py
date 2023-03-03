@@ -40,5 +40,3 @@ while True:
             setText("Threshold: " + str(range_ref)+ "cm OBJ PRES\n Range: " + str(measured_range) + "cm")
     old_range = range_ref
     old_measured_range = measured_range
-
-    time.sleep(.5)
