@@ -35,7 +35,7 @@ while True:
     # Print to Screen
     if (measured_range != old_measured_range) or (range_ref != old_range):
         if measured_range > range_ref:
-            setText_norefresh(str(range_ref)+ "cm         \n Range: " + str(measured_range) + "cm")
+            setText_norefresh(str(range_ref)+ "cm           \n Range: " + str(measured_range) + "cm")
         else:
             setText_norefresh(str(range_ref)+ "cm OBJ PRES\n Range: " + str(measured_range) + "cm")
     old_range = range_ref
