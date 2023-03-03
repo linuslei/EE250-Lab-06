@@ -18,8 +18,7 @@ ultrasound = 4
 
 # Setting up the LCD
 lcd = 0x3f
-grovepi.lcdInit(lcd)
-grovepi.lcdSetRGB(lcd, 0, 128, 64)
+setRGB(0, 128, 64)
 
 while True:
     # Read sensor value from potentiometer
